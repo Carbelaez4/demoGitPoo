@@ -8,4 +8,7 @@ public class Automovil  extends Vehiculo{
     public void setDescapotable(boolean descapotable) {
         this.descapotable = descapotable;
     }
+    public void cambioAceite(){
+        System.out.println("Se cambio aceite al automovil");
+    }
 }
